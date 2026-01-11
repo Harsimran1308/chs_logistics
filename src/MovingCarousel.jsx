@@ -32,8 +32,8 @@ const MovingCarousel = () => {
                                 <h5 className="text-white text-uppercase mb-3 animated slideInDown">Warehousing & Logistics Solution</h5>
                                 <h1 className="display-3 text-white animated slideInDown mb-4">#1 Place For Your <span className="text-primary">Logistics</span> Solution</h1>
                                 <p className="fs-5 fw-medium text-white mb-4 pb-2">We provide reliable logistics solutions, ensuring efficient transportation and seamless supply chain operations across North America.</p>
-                                <a href="" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" className="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <a href="/logistics" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="/contact" className="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                             </div>
                         </div>
                         </div>
@@ -48,8 +48,8 @@ const MovingCarousel = () => {
                                 <h5 className="text-white text-uppercase mb-3 animated slideInDown">Warehousing & Logistics Solution</h5>
                                 <h1 className="display-3 text-white animated slideInDown mb-4">#1 Place For Your <span className="text-primary">Warehousing</span> Solution</h1>
                                 <p className="fs-5 fw-medium text-white mb-4 pb-2">Providing reliable warehousing solutions to support secure storage, inventory control, and distribution operations.</p>
-                                <a href="" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                <a href="" className="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a>
+                                <a href="/warehousing" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="/contact" className="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                             </div>
                         </div>
                     </div>
