@@ -1,0 +1,18 @@
+.office-img img {
+    width: 100%; /* Ensure the image takes the full width of the container */
+    height: 250px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensure the image fills the container while maintaining its aspect ratio */
+    border-radius: 10px; /* Adds a slight border radius to match the rounded class */
+}
+
+.office-item {
+    margin-bottom: 30px; /* Adds space between office items if needed */
+}
+
+.input-field{
+    border-radius: 10px !important;
+}
+
+.submit-button {
+    border-radius: 10px !important;
+}

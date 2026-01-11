@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
+import Header from './Header';
+import Home from './Home';
+import Footer from './Footer';
+import AboutUs from './AboutUs';
+import ContactUs from './ContactUs';
+import WarehouseService from './WarehouseService';
+import LogisticsService from './LogisticsService';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <NotificationContainer/>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<AboutUs/>} />
+        <Route path="/contact" element={<ContactUs/>} />
+        <Route path="/warehousing" element={<WarehouseService/>} />
+        <Route path="/logistics" element={<LogisticsService/>} />
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 
