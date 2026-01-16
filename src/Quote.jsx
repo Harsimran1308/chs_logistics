@@ -66,7 +66,7 @@ const Quote = () => {
                         <i className="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                         <div className="ps-4">
                             <h6>Call for any query!</h6>
-                            <h3 className="text-primary m-0">+1 (905) 789 9875</h3>
+                            <h3 className="text-primary m-0">+1 (416) 804-6539</h3>
                         </div>
                     </div>
                 </div>

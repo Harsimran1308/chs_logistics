@@ -231,7 +231,7 @@ const WarehouseService = () => {
                             </div>
                             <div class="ms-3">
                                 <h6>Phone Number</h6>
-                                <p class="mb-0">+1 (905) 789 9875</p>
+                                <p class="mb-0">+1 (416) 804-6539</p>
                             </div>
                         </div>
                         <div class="bg-light d-flex p-4 mb-0">

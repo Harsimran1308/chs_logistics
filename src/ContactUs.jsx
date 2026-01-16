@@ -127,7 +127,7 @@ const ContactUs = () => {
                                             <h5 className="mb-3">Quick Contact</h5>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Phone:</h6>
-                                                <a className="fs-5 text-primary">+1 (905) 789 9875</a>
+                                                <a className="fs-5 text-primary">+1 (416) 804-6539</a>
                                             </div>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Email:</h6>
@@ -143,7 +143,7 @@ const ContactUs = () => {
                                             <h5 className="mb-3">Opening Hrs</h5>
                                             <div className="mb-3">
                                                 <h6 className="mb-0">Mon - Friday:</h6>
-                                                <a className="fs-5 text-primary">07.00 AM to 05.00 PM</a>
+                                                <a className="fs-5 text-primary">08.00 AM to 04.00 PM</a>
                                             </div>
                                         </div>
                                     </div>
@@ -214,7 +214,7 @@ const ContactUs = () => {
                                         </div>
                                         <div className="office-content d-flex flex-column">
                                             <h4 className="mb-2">Brampton</h4>
-                                            <a className="text-secondary fs-5 mb-2">+1 (905) 789 9875</a>
+                                            <a className="text-secondary fs-5 mb-2">+1 (416) 804-6539</a>
                                             <a className="text-muted fs-5 mb-2">admin@chslogistics.ca</a>
                                             <p className="mb-0">30 Driver Rd Unit 2 Brampton, ON L6T 5V2</p>
                                         </div>

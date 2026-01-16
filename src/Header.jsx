@@ -62,8 +62,8 @@ const Header = () => {
             </Link>
           </div>
           <h4 className="m-0 pe-lg-5 d-none d-lg-block">
-            <i className="fa fa-phone-square text-primary me-3"></i> +1 (905)
-            789-9875
+            <i className="fa fa-phone-square text-primary me-3"></i> +1 (416)
+            804-6539
           </h4>
         </div>
       </nav>

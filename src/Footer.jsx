@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
                 <h4 className="text-light mb-4">Address</h4>
                 <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>30 Driver Rd Unit 2 Brampton, ON L6T 5V2</p>
-                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+1 (905) 789 9875</p>
+                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+1 (416) 804-6539</p>
                 <p className="mb-2"><i className="fa fa-envelope me-3"></i>admin@chslogistics.ca</p>
             </div>
             <div className="col-lg-3 col-md-6">
