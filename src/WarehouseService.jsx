@@ -35,7 +35,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Long Term, short term storage</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Secure and flexible storage solutions designed for both short-term overflow and long-term inventory management, with easy access and real-time tracking.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Retail, Wholesale distribution</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">End-to-end distribution services for retail and wholesale businesses, ensuring accurate order fulfillment and timely delivery across regions.</p>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Pick, pack and shipment services</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Efficient pick, pack, and ship operations that reduce handling time, minimize errors, and ensure your products reach customers safely.</p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Transportation</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Reliable transportation services with optimized routes to ensure cost-effective, on-time delivery for local and long-haul shipments.</p>
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Retail support services</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Value-added retail support including labeling, kitting, inventory management, and compliance handling to support store-ready deliveries.</p>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Custom Packaging</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Tailored packaging solutions designed to protect your products, enhance branding, and meet specific customer or regulatory requirements.</p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Spare parts logistics</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Specialized storage and fast distribution of spare parts to ensure minimal downtime and uninterrupted business operations.</p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Exhibition equipment, materials storage and transportations</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Safe storage and timely transportation of exhibition materials and equipment, ensuring smooth setup and breakdown for events and trade shows.</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Consumer products storage and distribution services</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Scalable warehousing and distribution solutions for consumer goods, supporting high-volume movement and seasonal demand.</p>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ const WarehouseService = () => {
                             <div class="service-item d-flex p-4">
                                 <div class="ms-3">
                                     <h5>Cross docking service available</h5>
-                                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                                    <p class="mb-0">Fast cross-docking services that reduce storage time, speed up deliveries, and improve overall supply chain efficiency.</p>
                                 </div>
                             </div>
                         </div>
@@ -166,6 +166,20 @@ const WarehouseService = () => {
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                 We use organized storage systems, controlled processes, and regular inventory checks to maintain accuracy, visibility, and secure handling of all stored goods.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Do you handle hazmat products? 
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    We do not deal with hazardous material at the moment.
                                 </div>
                             </div>
                         </div>

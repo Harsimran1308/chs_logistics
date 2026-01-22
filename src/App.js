@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import Header from './Header';
 import Home from './Home';
@@ -8,10 +8,12 @@ import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
 import WarehouseService from './WarehouseService';
 import LogisticsService from './LogisticsService';
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
+      <ScrollToTop />
       <NotificationContainer/>
       <Header/>
       <Routes>
@@ -22,7 +24,7 @@ function App() {
         <Route path="/logistics" element={<LogisticsService/>} />
       </Routes>
       <Footer/>
-    </Router>
+    </BrowserRouter>
   );
 }
 
