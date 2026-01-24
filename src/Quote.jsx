@@ -1,6 +1,6 @@
 import {React, useRef} from "react";
 import axios from "axios";
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Quote = () => {
     const emailRef = useRef(null);
@@ -17,42 +17,31 @@ const Quote = () => {
         const message = messageNoteRef.current.value;
         const service = serviceRef.current.value;
 
-        const currentTimeEdmonton = new Intl.DateTimeFormat("en-US", {
-            timeZone: "America/Edmonton",
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit",
-            hour: "2-digit",
-            minute: "2-digit",
-            second: "2-digit",
-            hour12: true
-          }).format(new Date());
     
-        // try {
-        //     // Make an Axios POST request with JSON data
-        //     const response = await axios.post("https://88y718whni.execute-api.ca-central-1.amazonaws.com/prod/send-email", {
-        //         name:firstName+" "+lastName,
-        //         email:email,
-        //         phone:phone,
-        //         subject:`Contact Form - ${subject}`,
-        //         message:message+`\n Contact Form Submitted at ${currentTimeEdmonton}`
-        //     }, {
-        //       headers: {
-        //         'Content-Type': 'application/json',  // Set content type to JSON
-        //       }
-        //     });
-        //     NotificationManager.success('Success', 'Thank you for reaching out! We will be in touch with you shortly.');
-        //     // Clear the input field after success
-        //     emailRef.current.value = "";
-        //     firstNameRef.current.value = "";
-        //     lastNameRef.current.value = "";
-        //     phonelRef.current.value = "";
-        //     subjectRef.current.value = "";
-        //     messageRef.current.value = "";
-        //   } catch (error) {
-        //     // Handle error
-        //     NotificationManager.error('Error', 'Please try after some time.');
-        //   }
+        try {
+            // Make an Axios POST request with JSON data
+            const response = await axios.post("https://y0rxyagjuk.execute-api.ca-central-1.amazonaws.com/default/chslogistics-email", {
+                name:fullName,
+                email:email,
+                phone:phone,
+                subject:`Quote Requested for - ${service}`,
+                message:message
+            }, {
+              headers: {
+                'Content-Type': 'application/json',  // Set content type to JSON
+              }
+            });
+            toast.success('Thank you for reaching out! We will be in touch with you shortly.');
+            // Clear the input field after success
+            emailRef.current.value = "";
+            fullNameRef.current.value = "";
+            phonelRef.current.value = "";
+            serviceRef.current.value = "";
+            messageNoteRef.current.value = "";
+          } catch (error) {
+            // Handle error
+            toast.error('Please try after some time.');
+          }
       };
   return (
     <div className="container-xxl py-5">

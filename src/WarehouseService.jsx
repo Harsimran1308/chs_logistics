@@ -26,7 +26,7 @@ const WarehouseService = () => {
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                     <h1 class="display-6 mb-4">CHS Brampton Warehousing and  Distribution Facility</h1>
 
-                    <p>​CHS warehouse located in Brampton, Ontario, west of Toronto is a full service 42000 Sq. Ft facility with close proximity to the airports, the Port of Toronto, major rail lines, the Trans-Canada Highway and  approximately 90 minutes drive from the US border.</p>
+                    <p>​CHS warehouse located in Brampton, Ontario, west of Toronto is a full service 90000 Sq. Ft facility with close proximity to the airports, the Port of Toronto, major rail lines, the Trans-Canada Highway and  approximately 90 minutes drive from the US border.</p>
                     <p class="mb-5">Our facilities are equipped to handle a wide range of inventory requirements while maintaining accuracy, organization, and visibility.We work closely with businesses to align warehousing services with operational goals, helping reduce overhead and improve turnaround times.Whether you need short-term storage or long-term distribution support, our solutions are built to grow with your business.</p>
 
                     <h3 class="mb-4">Warehousing Services</h3>
@@ -188,23 +188,20 @@ const WarehouseService = () => {
     
                 <div class="col-lg-4">
                     <div class="service-item p-4 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <h3 class="mb-4">Our Equipments</h3>
+                        <h3 class="mb-4">Our Services</h3>
                         <div class="d-flex flex-column">
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Van</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Dry Van</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Comprehensive logistics services</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Single item heavy freight</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Pallet freight</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Less than a truck load</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Partial truck load</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Rail freight</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Expedite freight</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Furniture shipping</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Heavy freight services</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Oversized freight</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Full truck load</a>
                             <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Refrigerated</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Flat bed</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Step Deck</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Liftgate</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Rack & Tarp</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Container</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Super B</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Floats</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Low Boy</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Double Drop</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Air Ride</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Drop Deck Trailers</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Special equipment for oversize loads</a>
                         </div>
                     </div>
 

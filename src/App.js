@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';
@@ -14,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <NotificationContainer/>
+      <ToastContainer />
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>} />

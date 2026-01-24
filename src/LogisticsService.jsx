@@ -145,20 +145,23 @@ const LogisticsService = () => {
     
                 <div class="col-lg-4">
                     <div class="service-item p-4 mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <h3 class="mb-4">Our Services</h3>
+                        <h3 class="mb-4">Our Logistics Services</h3>
                         <div class="d-flex flex-column">
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Comprehensive logistics services</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Single item heavy freight</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Pallet freight</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Less than a truck load</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Partial truck load</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Rail freight</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Expedite freight</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Furniture shipping</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Heavy freight services</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Oversized freight</a>
-                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Full truck load</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Van</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Dry Van</a>
                             <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Refrigerated</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Flat bed</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Step Deck</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Liftgate</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Rack & Tarp</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Container</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Super B</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Floats</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Low Boy</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Double Drop</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Air Ride</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Drop Deck Trailers</a>
+                            <a class="btn btn-outline-light text-start text-body px-3 mb-2" href="#"><i class="fa fa-arrow-right me-2"></i>Special equipment for oversize loads</a>
                         </div>
                     </div>
 
