@@ -1,9 +1,5 @@
 import { React, useEffect, useRef } from "react";
 import axios from "axios";
-import {
-  NotificationContainer,
-  NotificationManager,
-} from "react-notifications";
 import "./Contact.css";
 
 const WarehouseService = () => {
